@@ -19,28 +19,24 @@
         </ul>
     </nav>
     <main>
-        <p>Hello, I look forward to hearing from you!</p>
+        <p id="customname">Hello, I look forward to hearing from you!</p>
     </main>
-    <form id="contact-form" method="POST" action="sendmail.php">
-            <div class="form-row form-error" style="display:none;"></div>
-            <div class="form-row">
-              <label for="contact-form-name">Name:</label>
-              <input id="contact-form-name" class="form-input" type="text" name="name" required>
-            </div>
-            <div class="form-row">
-              <label for="contact-form-email">Email:</label>
-              <input id="contact-form-email" class="form-input" type="email" name="email" required>
-            </div>
-            <div class="form-row">
-              <label for="contact-form-phone">Phone:</label>
-              <input id="contact-form-phone" class="form-input" type="tel" name="phone">
-            </div>
-            <div class="form-row">
-              <label for="contact-form-message">Message:</label>
-              <textarea id="contact-form-message" class="form-input" name="message" required></textarea>
-            </div>
-            <button type="submit">SEND!</button>
-          </form>
+    <div class="container">
+      <form>
+    
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="First Name">
+    
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Last Name">
+    
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="What's on your mind?" style="height:200px"></textarea>
+    
+        <button id="submit">Submit</button>
+    
+      </form>
+    </div>
 
 </body>
 <footer>&copy; 2024 Emma Byblow</footer>
