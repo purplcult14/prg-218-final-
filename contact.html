@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PURPLCULT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>PURPLCULT DESIGN</h1>
+    </header>
+    <nav>
+        <section id="buttons">
+            <button onclick="window.location.href='index.html'" id="home">Home</button>
+            <button onclick="window.location.href='about.html'" id="about">About</button>
+            <button onclick="window.location.href='port.html'" id="port">Portfolio</button>
+            <button onclick="window.location.href='contact.html'" id="contact">Contact</button>
+        </ul>
+    </nav>
+    <main>
+        <p>Hello, I look forward to hearing from you!</p>
+    </main>
+    <form id="contact-form" method="POST" action="sendmail.php">
+            <div class="form-row form-error" style="display:none;"></div>
+            <div class="form-row">
+              <label for="contact-form-name">Name:</label>
+              <input id="contact-form-name" class="form-input" type="text" name="name" required>
+            </div>
+            <div class="form-row">
+              <label for="contact-form-email">Email:</label>
+              <input id="contact-form-email" class="form-input" type="email" name="email" required>
+            </div>
+            <div class="form-row">
+              <label for="contact-form-phone">Phone:</label>
+              <input id="contact-form-phone" class="form-input" type="tel" name="phone">
+            </div>
+            <div class="form-row">
+              <label for="contact-form-message">Message:</label>
+              <textarea id="contact-form-message" class="form-input" name="message" required></textarea>
+            </div>
+            <button type="submit">SEND!</button>
+          </form>
+
+</body>
+<footer>&copy; 2024 Emma Byblow</footer>
+<script src="index.js"></script> 
+</html>

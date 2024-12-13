@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Jacquard+24+Charted&family=Monofett&family=Onest:wght@100..900&family=Shrikhand&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "Onest", sans-serif;
+    color: rgb(181, 63, 255);
+    cursor: url('cursor\ small.png'), auto;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    justify-content: center;
+    padding: 3%;
+    font-size: xx-large;
+    text-shadow: 4px 2px 10px rgb(255, 0, 0);
+    font-family: "Archivo Black", sans-serif;
+    color: rgb(194, 96, 255);
+}
+
+nav{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+main{
+    background-color: black;
+    padding: 2%;
+}
+#homepage{
+    background-color: black;
+    display: grid;
+    text-align: center;
+}
+button{
+    background-color:  rgb(181, 63, 255);
+    color: rgb(255, 254, 254);
+    font-family: 'Onest', sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    padding: 8px;
+    font-size: medium;
+    text-shadow: 2px 2px 8px #c2c2c2;
+    box-shadow: 0px 0px 9px rgb(181, 63, 255);
+    text-transform: uppercase;
+    cursor: url('cursor\ small.png'), pointer;
+}
+#home{
+    margin:10px;
+}
+#about{
+    margin:10px;
+}
+#port{
+    margin:10px;
+}
+#contact{
+    margin:10px;
+}
+#aboutpic{
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 10%;
+}
+#picture{
+    max-width: 100%;
+    padding:10%;
+    
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    color: azure;
+}
+p{
+    padding: 10%;
+    text-align: left;
+    font-size: large;
+}
+button:hover{
+    background-color:  rgb(255, 0, 0);
+    color: rgb(255, 254, 254);
+    font-family: 'Onest', sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    padding: 8px;
+    font-size: medium;
+    text-shadow: 2px 2px 8px #c2c2c2;
+    box-shadow: 0px 0px 9px rgb(255, 0, 0);
+    text-transform: uppercase;
+    cursor: url('cursor\ small.png'), pointer;
+}
+button:active{
+    background-color:  rgb(255, 0, 0);
+    color: rgb(255, 254, 254);
+    font-family: 'Onest', sans-serif;
+    border-radius: 10px 10px 10px 10px;
+    padding: 8px;
+    font-size: medium;
+    text-shadow: 2px 2px 8px #c2c2c2;
+    box-shadow: 0px 0px 9px rgb(255, 0, 0);
+    text-transform: uppercase;
+    cursor: url('cursor\ small.png'), pointer;
+
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+.form-input {
+    display: block;
+}
+
+.form-error {
+    color: red;
+}
+
+#contact-form{
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: black;
+}
+input{
+    border-radius: 10px 10px 10px 10px;
+}
+textarea{
+    border-radius: 10px 10px 10px 10px;
+}
